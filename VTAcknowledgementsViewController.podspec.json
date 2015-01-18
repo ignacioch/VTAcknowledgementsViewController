@@ -11,9 +11,8 @@
   "authors": {
     "Vincent Tourraine": "me@vtourraine.net"
   },
-  "social_media_url": "https://twitter.com/vtourraine",
   "source": {
-    "git": "https://github.com/vtourraine/VTAcknowledgementsViewController.git",
+    "git": "https://github.com/ignacioch/VTAcknowledgementsViewController.git",
     "tag": "0.12"
   },
   "source_files": "Classes/*.{h,m}",
