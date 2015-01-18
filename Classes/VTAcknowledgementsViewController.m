@@ -291,6 +291,7 @@ static const CGFloat VTLabelMargin = 20;
 
     if (indexPath.row == self.acknowledgements.count + 1) {
         cell.textLabel.text = @"Exit";
+        return cell;
     }
     
     VTAcknowledgement *acknowledgement = self.acknowledgements[indexPath.row];
