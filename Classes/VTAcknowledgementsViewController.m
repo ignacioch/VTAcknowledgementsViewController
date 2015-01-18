@@ -161,11 +161,11 @@ static const CGFloat VTLabelMargin = 20;
 
     [self configureFooterView];
 
-    if (self.presentingViewController && self == [self.navigationController.viewControllers firstObject]) {
+    /*if (self.presentingViewController && self == [self.navigationController.viewControllers firstObject]) {
         self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone
                                                                                               target:self
                                                                                               action:@selector(dismissViewController:)];
-    }
+    }*/
 }
 
 - (void)configureHeaderView
@@ -303,7 +303,7 @@ static const CGFloat VTLabelMargin = 20;
     VTAcknowledgement *acknowledgement = self.acknowledgements[indexPath.row];
     VTAcknowledgementViewController *viewController = [[VTAcknowledgementViewController alloc] initWithTitle:acknowledgement.title text:acknowledgement.text];
     viewController.textViewFont = self.licenseTextViewFont;
-    [self.navigationController pushViewController:viewController animated:YES];
+    //[self.navigationController pushViewController:viewController animated:YES];
 }
 
 @end
