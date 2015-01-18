@@ -12,8 +12,7 @@
     "Vincent Tourraine": "me@vtourraine.net"
   },
   "source": {
-    "git": "https://github.com/ignacioch/VTAcknowledgementsViewController.git",
-    "tag": "0.12"
+    "git": "https://github.com/ignacioch/VTAcknowledgementsViewController.git"
   },
   "source_files": "Classes/*.{h,m}",
   "resources": "VTAcknowledgementsViewController.bundle",
