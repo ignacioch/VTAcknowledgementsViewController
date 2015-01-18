@@ -2,12 +2,12 @@
   "name": "VTAcknowledgementsViewController",
   "version": "0.12",
   "license": "MIT",
-  "summary": "Ready to use “Acknowledgements”/“Licenses”/“Credits” view controller for CocoaPods.",
+  "summary": "Ready to use Acknowledgements/Licenses/Credits view controller for CocoaPods.",
   "screenshots": [
     "http://vtourraine.github.io/VTAcknowledgementsViewController/screenshots/iPhone-300-01.png",
     "http://vtourraine.github.io/VTAcknowledgementsViewController/screenshots/iPhone-300-02.png"
   ],
-  "homepage": "https://github.com/vtourraine/VTAcknowledgementsViewController",
+  "homepage": "https://github.com/ignacioch/VTAcknowledgementsViewController",
   "authors": {
     "Vincent Tourraine": "me@vtourraine.net"
   },
