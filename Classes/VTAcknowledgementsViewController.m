@@ -289,7 +289,9 @@ static const CGFloat VTLabelMargin = 20;
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:VTCellIdentifier];
     }
 
-    if (indexPath.row == self.acknowledgements.count + 1) {
+    // last cell to exit
+    // indexPath.row from 0 to count
+    if (indexPath.row == self.acknowledgements.count ) {
         cell.textLabel.text = @"Exit";
         return cell;
     }
@@ -305,7 +307,9 @@ static const CGFloat VTLabelMargin = 20;
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (indexPath.row == self.acknowledgements.count + 1) {
+    // last cell to exit
+    // indexPath.row from 0 to count
+    if (indexPath.row == self.acknowledgements.count ) {
         [self dismissViewControllerAnimated:YES completion:nil];
     } else {
         VTAcknowledgement *acknowledgement = self.acknowledgements[indexPath.row];
