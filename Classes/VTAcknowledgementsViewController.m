@@ -303,7 +303,7 @@ static const CGFloat VTLabelMargin = 20;
     VTAcknowledgement *acknowledgement = self.acknowledgements[indexPath.row];
     VTAcknowledgementViewController *viewController = [[VTAcknowledgementViewController alloc] initWithTitle:acknowledgement.title text:acknowledgement.text];
     viewController.textViewFont = self.licenseTextViewFont;
-    [self presentViewController:acknowledgement animated:YES completion:NULL];
+    [self presentViewController:viewController animated:YES completion:NULL];
 
     //[self.navigationController pushViewController:viewController animated:YES];
 }
